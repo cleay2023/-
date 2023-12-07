@@ -1,0 +1,1 @@
+<view class="map"><map class="map" id="map" latitude="{{latitude}}" longitude="{{longitude}}" show-compass="{{true}}" scale="15" show-location="true" markers="{{markers}}" data-event-opts="{{[['markertap',[['markertap',['$event']]]]]}}" bindmarkertap="__e"></map><view data-event-opts="{{[['tap',[['addMarker',['$event']]]]]}}" class="add_btn" bindtap="__e">添加</view></view>
